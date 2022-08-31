@@ -1,4 +1,4 @@
-const Joke = require("../models/joke.model");
+const Joke = require("../models/joke.model").default;
 
 const getAllJokes = (req, res) => {
   Joke.find()
